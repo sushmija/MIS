@@ -6,8 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
 # Load provided dataset
-df = pd.read_csv('healthcare_customer_loyalty.csv')
-
+df = pd.read_csv('./data/healthcare_customer_loyalty.csv')
 
 # Preprocessing
 le = LabelEncoder()
